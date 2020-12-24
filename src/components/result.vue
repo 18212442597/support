@@ -1,6 +1,26 @@
 <template>
 <div class="container">
     <h1>3、成果数据</h1>
+    <a-tabs default-active-key="1" tab-position="left" size="large" >
+      <a-tab-pane key="1" tab="坐标文件">
+        <img src="../assets/index.png" alt="" width="100%">
+      </a-tab-pane>
+      <a-tab-pane key="2" tab="现场照片">
+        Content of Tab 2
+      </a-tab-pane>
+      <a-tab-pane key="3" tab="宗地成果">
+        Content of Tab 2
+      </a-tab-pane>
+      <a-tab-pane key="4" tab="分层分户图">
+        Content of Tab 2
+      </a-tab-pane>
+      <a-tab-pane key="5" tab="不动产权籍调查表">
+        Content of Tab 3
+      </a-tab-pane>
+      <a-tab-pane key="6" tab="不动产登记申请表">
+        Content of Tab 3
+      </a-tab-pane>
+    </a-tabs>
 </div>
 </template>
 

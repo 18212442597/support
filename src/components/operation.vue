@@ -39,7 +39,7 @@
           <h1>{{ item.text }}</h1>
         </div>
       </div>
-      <br/>
+      <br />
     </div>
   </div>
 </template>
@@ -47,45 +47,53 @@
 <script>
 const steps = [
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step0.png"),
     icon: require("../assets/images/round1.png"),
-    text: "说明此时你是说明此时你是说明此时你是说明此时你是",
+    text:
+      "登录进入平台后,外出作业之前需要设置服务器地址（成果上传的服务器）、CORS账号、配套使用的RTK设备和作业区域的地图影像文件",
   },
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step1.png"),
     icon: require("../assets/images/round2.png"),
-    text: "说明此时你是",
+    text:
+      "设置基本配置后进入平台初始页面即可新增、查询、修改、上传宗地信息，以新增为例进行流程展示",
   },
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step2.png"),
     icon: require("../assets/images/round3.png"),
-    text: "说明此时你是",
+    text:
+      "点击新建图标，进入新建页面，作业人员根据现场情况填写宗地户主信息、房屋坐落信息、作业人员信息以及备注信息，如需要进行分户处理，则点击右上角添加分户信息",
   },
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step3.png"),
     icon: require("../assets/images/round4.png"),
-    text: "说明此时你是",
+    text: "对宗地的档案数据、身份信息、权属来源证明资料、现场照片、草图照片、切坡建房照等进行拍照留底",
   },
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step4.png"),
     icon: require("../assets/images/round5.png"),
-    text: "说明此时你是",
+    text:
+      "根据现场房屋测量后进行宗地图绘制，可选择手绘也可以选择基础图库快速绘制，房屋四至、分层分户结构等等信息需根据实际情况标注，次测量过程要借助测距仪、量角器等工具完成",
   },
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step5.png"),
     icon: require("../assets/images/round6.png"),
-    text: "说明此时你是",
+    text:
+      "完善绘图信息后，根据配套使用的RTK进行现场落图（为确保较高的精度，至少用RTK打两个点进行落图）",
   },
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step6.png"),
     icon: require("../assets/images/round7.png"),
-    text: "说明此时你是",
+    text:
+      "系统生成宗地调查结果，包括坐标文件、不动产登记申请表、不动产权籍调查表、宗地成果、分层分户图等，该成果都是根据国家入库标准生成的，可以直接打印，也可以直接上传",
   },
   {
-    picture: require("../assets/index.png"),
+    picture: require("../assets/step7.png"),
     icon: require("../assets/images/round8.png"),
-    text: "说明此时你是",
+    text:
+      "完成一宗调查后，会在开始页面的宗地信息列表显示，此时可对别表进行筛选并进行修改、删除、上传等操作",
   },
+ 
 ];
 export default {
   data() {
