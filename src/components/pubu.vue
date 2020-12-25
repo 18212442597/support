@@ -23,8 +23,8 @@ created() {
 },
 //生命周期 - 挂载完成（访问DOM元素）
 mounted() {
-this.$nextTick(function() {
-      var divs = document.querySelectorAll(".box");
+setTimeout(()=>{
+var divs = document.querySelectorAll(".box");
       var container = document.getElementById("container");
       var boxwidth = divs[0].clientWidth;
       var allWidth = container.clientWidth;
@@ -44,18 +44,23 @@ this.$nextTick(function() {
 
       divs.forEach((item, index) => {
         var minIndex = getMinIndex(heightArr);
+        // console.log(minIndex);
         if (index < col) {
           item.style.left = index * boxwidth + "px";
-          heightArr[index]=item.clientHeight;
+          heightArr.push(item.clientHeight)
+          console.log(item.clientHeight);
+          // heightArr[index]=item.clientHeight;
         } else {
           item.style.left = minIndex * boxwidth + "px";
           item.style.top = heightArr[minIndex] + "px";
           heightArr[minIndex] += item.clientHeight;
         }
       });
+},100)
       
-    });
-  },
+      
+    }
+  
 
 }
 </script>

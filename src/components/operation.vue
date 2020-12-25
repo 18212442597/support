@@ -211,7 +211,7 @@ export default {
   /* background-color: saddlebrown; */
 }
 .step {
-  width: 55%;
+  width: 50%;
   height: 10vh;
   /* background-color: aqua; */
   position: absolute;
@@ -245,7 +245,7 @@ export default {
   top: 20vh;
 }
 .step_Reverse {
-  width: 55%;
+  width: 50%;
   height: 10vh;
   /* background-color: aqua; */
   position: absolute;
