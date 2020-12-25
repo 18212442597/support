@@ -33,19 +33,19 @@ const info = [
     title: "降低作业成本",
     desc:
       "传统外业作业都由测绘人员完成，用本平台后一般人员简单培训都可上岗。测绘人员日工作成本500元；调查人员日工作成本300元。",
-    icon: require("../assets/images/chengben.png"),
+    icon: require("../assets/images/icon/chengben.png"),
   },
   {
     title: "融合登记业务要求，深度整合作业流程",
     desc:
       "面向登记业务，和业务深度关联定制合理调查流程。外业现场比对登记档案资料，调查、测绘，平板上直接生成各类成果。内业开展不动产数据整理和外业成果质检工作",
-    icon: require("../assets/images/ronghe.png"),
+    icon: require("../assets/images/icon/ronghe.png"),
   },
   {
     title: "实现成果标准化",
     desc:
       "满足省厅技术要求，厘米级定位、图表规范，可直接入库。 软件自动生成成果，标准统一；后期针对成果标准要求发生变化，可批量生成。",
-    icon: require("../assets/images/chengguo.png"),
+    icon: require("../assets/images/icon/chengguo.png"),
   },
 ];
 export default {

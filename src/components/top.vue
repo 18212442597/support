@@ -12,9 +12,9 @@
       </div>
     </div>
     <div class="right_bottom">
-      <img src="../assets/index.png" alt="" />
-      <img src="../assets/index.png" alt="" />
-      <img src="../assets/index.png" alt="" />
+      <img src="../assets/images/banner/index.png" alt="" />
+      <img src="../assets/images/banner/index.png" alt="" />
+      <img src="../assets/images/banner/index.png" alt="" />
     </div>
   </div>
 </template>
